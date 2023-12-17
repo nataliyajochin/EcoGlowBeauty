@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;400;500;800&display=swap');
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.home {
+  margin: 0;
+  padding: 0;
+  background-image: url('./images/1.jpg');
+  background-size: cover;
+  background-position: center top 180px;
+  background-repeat: no-repeat;
+}
+
+.pocetna-header {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 800;
+  background-color: #eaaabf;
+  color: #fef4e4;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.pocetna-header h1 {
+  margin: 0;
+  font-size: 120px;
+}
+
+.nav-traka {
+  display: flex;
+  background-color: #fad6e6;
+  justify-content: center;
+  padding: 5px 0px;
+  position: relative;
+  z-index: 1;
+}
+
+.nav-menu .nav-item {
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 500;
+  margin: 0 10px;
+  padding: 0px 140px;
+}
+
+.nav-menu .nav-item a {
+  text-decoration: none;
+  color: #809337;
+  transition: color 0.4s ease;
+}
+
+.nav-menu .nav-item a:hover {
+  color: #b7c38c;
+}
+
+.uvod {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 400;
+  position: relative;
+  text-align: right;
+  font-size: 25px;
+  color: #809337;
+  padding: 70px;
+  padding-right: 70px;
+  max-width: 50%;
+  margin-left: auto;
+}
+
+.uvod::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.home-footer {
+  background-color: #eaaabf;
+
+  text-align: center;
+  padding: 20px;
+}
+
+.home-button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 19px;
+  background-color: #809337;
+  color: #fad6e6;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #b7c38c;
+}
+
+
+
+
+body.contact {
+  background-image: url('./images/5.jpg');
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center top 180px;
+  background-repeat: no-repeat;
+}
+
+.uvod-contact {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 25px;
+  color: #fef4e4;
+  padding: 50px;
+
+}
+
+.uvod-contact p {
+  margin: 0;
+
+}
+
+.contact-form {
+  background-color: #fef4e4;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #809337;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #809337;
+  border-radius: 5px;
+  resize: none;
+  outline: none;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #809337;
+  color: #fef4e4;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #b7c38c;
+}
+
+.social-icons {
+  text-align: center;
+}
+
+.social-icons i {
+  font-size: 50px;
+  margin: 40px 40px;
+  color: #fef4e4;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons i:hover {
+  transform: scale(1.2);
+}
+
+
+.advice-body {
+  background-color: #fef4e4;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.advice-content {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: justify;
+}
+
+.advice-content h2 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 600;
+  color: #809337;
+  margin-bottom: 10px;
+}
+
+.advice-content p {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #809337;
+}
+
+body.products {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  background-color: #eaaabf;
+}
+
+.product-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  width: calc(33.33% - 40px);
+  box-sizing: border-box;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-description {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.show-more-btn {
+  font-size: 19px;
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #809337;
+  color: #fef4e4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.show-more-btn:hover {
+  background-color: #b7c38c;
+}
