@@ -292,16 +292,11 @@ body.products {
   top: 50%;
   left: 50%;
   margin-top: -25px;
-  /* Polovina visine */
   margin-left: -600px;
-  /* Polovina širine */
   animation: rotate 15s linear infinite;
-  /* Promenite vrednosti prema potrebi */
 }
 
 .rotating-item img {
   width: 100%;
-  /* Podesite veličinu slike prema potrebi */
   height: 100%;
-  /* Podesite veličinu slike prema potrebi */
 }
